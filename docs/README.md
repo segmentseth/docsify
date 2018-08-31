@@ -1,3 +1,10 @@
+
+# Welcome
+To your official & customized guide to Segment
+
+
+[Dive In](#docsify)
+
 ## docsify
 
 > A magical documentation site generator.
