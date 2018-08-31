@@ -1,6 +1,23 @@
 
 # Welcome
-To your official & customized guide to Segment
+To your official & customized guide to Segment!  
+
+
+!> ^ IE / SA to find / replace [Customer Name] with actual customer name throughout doc
+
+!>  IE / SA to insert link to customer’s tracking plan
+
+This document is meant to serve as a resource for:
+- Facilitating the ongoing ease of Segment implementation
+- Ensure consistency between implementations
+- Highlight special considerations in implementation that
+
+[Customer Name] should be aware of for their specific sources and destinations
+
+High-level guidelines:
+Very intentional data is always better than more data
+Prioritize repeatability & extensibility
+
 
 
 [Dive In](#docsify)
