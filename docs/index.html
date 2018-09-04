@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>docsify</title>
-  <link rel="icon" href="_media/favicon.ico">
+  <title>Docs for [Customer Name]</title>
+  <link rel="icon" href="_media/favicon3-16.png">
   <meta name="google-site-verification" content="6t0LoIeFksrjF4c9sqUEsVXiQNxLp2hgoqo0KryT-sE" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="keywords" content="doc,docs,documentation,gitbook,creator,generator,github,jekyll,github-pages">
@@ -22,6 +22,16 @@
     .sidebar {
       width: 250px;
     }
+    .sidebar ul ul li {
+      margin: -7px 0 0 0 !important;
+    }
+    .sidebar ul ul li a {
+      font-size: 0.9em !important;
+    }
+    .sidebar ul ul ul li a {
+      font-size: 0.8em !important;
+    }
+
     section.cover.show {
       background: #00386C !important;
     }
@@ -45,8 +55,8 @@
 
 <body>
   <div id="app">
-    ![logo](_media/icon.png ':size=50%')
-    Loading ...
+    <!-- ![logo](_media/icon.png ':size=50%') -->
+    Loading your documentation...
 </div>
   <script>
     window.$docsify = {
@@ -65,8 +75,8 @@
       loadSidebar: false,
       loadNavbar: false,
       mergeNavbar: false,
-      maxLevel: 2,
-      subMaxLevel: 1,
+      maxLevel: 4,
+      subMaxLevel: 4,
       ga: '-',
       name: 'contents',
       // logo: '_media/icon.png',
@@ -112,7 +122,7 @@
   <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-markdown.min.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-nginx.min.js"></script>
-
+<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- <script>
   ((window.gitter = {}).chat = {}).options = {
     room: 'docsifyjs/Lobby'
